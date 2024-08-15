@@ -25,7 +25,11 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
 
     return (
         <div className={styles.comment}>
-            <Avatar hasBorder={false} src="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?q=50&w=100&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+            <Avatar
+                src="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?q=50&w=100&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                hasBorder={false}
+                alt=""
+            />
 
             <div className={styles.commentBox}>
                 <div className={styles.commentContent}>
